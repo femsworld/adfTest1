@@ -1,0 +1,11 @@
+{
+	"name": "TrippingOData",
+	"properties": {
+		"annotations": [],
+		"type": "OData",
+		"typeProperties": {
+			"url": "https://services.odata.org/TripPinRESTierService/",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
