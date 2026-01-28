@@ -10,7 +10,7 @@
 				"frequency": "Month",
 				"interval": 15,
 				"startTime": "2026-01-28T14:54:00",
-				"timeZone": "GTB Standard Time",
+				"timeZone": "FLE Standard Time",
 				"schedule": {
 					"minutes": [
 						0
