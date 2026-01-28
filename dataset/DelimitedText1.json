@@ -1,0 +1,258 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Emissions_Data_2023.csv",
+				"folderPath": "inputfolder",
+				"container": "datafactory"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "state_id",
+				"type": "String"
+			},
+			{
+				"name": "state_abbr",
+				"type": "String"
+			},
+			{
+				"name": "county_state_name",
+				"type": "String"
+			},
+			{
+				"name": "county_id",
+				"type": "String"
+			},
+			{
+				"name": "county_name",
+				"type": "String"
+			},
+			{
+				"name": "latitude",
+				"type": "String"
+			},
+			{
+				"name": "longitude",
+				"type": "String"
+			},
+			{
+				"name": "consolidated_city-county",
+				"type": "String"
+			},
+			{
+				"name": "population",
+				"type": "String"
+			},
+			{
+				"name": "population_cohort",
+				"type": "String"
+			},
+			{
+				"name": "employment",
+				"type": "String"
+			},
+			{
+				"name": "employment_cohort",
+				"type": "String"
+			},
+			{
+				"name": "doe_climate_zone",
+				"type": "String"
+			},
+			{
+				"name": "cohort",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh)14",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions15",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh/capita)16",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions17",
+				"type": "String"
+			},
+			{
+				"name": "utility customers18",
+				"type": "String"
+			},
+			{
+				"name": "GHG emissions mtons CO2e",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF)20",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions21",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF/capita)22",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions23",
+				"type": "String"
+			},
+			{
+				"name": "utility customers24",
+				"type": "String"
+			},
+			{
+				"name": "occuped housing units",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh)26",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions27",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh/capita)28",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions29",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh)30",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions31",
+				"type": "String"
+			},
+			{
+				"name": "utility customers32",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF)33",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions34",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF/capita)35",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions36",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF)37",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions38",
+				"type": "String"
+			},
+			{
+				"name": "utility customers39",
+				"type": "String"
+			},
+			{
+				"name": "buildings",
+				"type": "String"
+			},
+			{
+				"name": "area (sq. ft.)",
+				"type": "String"
+			},
+			{
+				"name": "consumption (gallons)42",
+				"type": "String"
+			},
+			{
+				"name": "consumption (gallons/capita)43",
+				"type": "String"
+			},
+			{
+				"name": "consumption (gallons)44",
+				"type": "String"
+			},
+			{
+				"name": "consumption (gallons/capita)45",
+				"type": "String"
+			},
+			{
+				"name": "vehicle miles traveled (miles)",
+				"type": "String"
+			},
+			{
+				"name": "vehicle miles traveled (miles/capita)",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh)48",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions49",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh/capita)50",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF)51",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions52",
+				"type": "String"
+			},
+			{
+				"name": "consumption (TcF/capita)53",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions54",
+				"type": "String"
+			},
+			{
+				"name": "establishments",
+				"type": "String"
+			},
+			{
+				"name": "consumption (MWh)56",
+				"type": "String"
+			},
+			{
+				"name": "expenditures in Millions57",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

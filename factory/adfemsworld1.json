@@ -1,0 +1,9 @@
+{
+	"name": "adfemsworld1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82d02ad2-1374-4239-8d06-861b1ed75505",
+		"tenantId": "e60c597d-5ce2-450c-9802-9f079581bec2"
+	}
+}
