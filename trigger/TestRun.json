@@ -1,0 +1,22 @@
+{
+	"name": "TestRun",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 15,
+				"startTime": "2026-01-28T14:52:00",
+				"timeZone": "GTB Standard Time",
+				"schedule": {
+					"monthDays": [
+						17
+					]
+				}
+			}
+		}
+	}
+}
