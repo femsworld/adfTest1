@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_kq3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDiabetes",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "diabetes.csv",
+				"container": "datafactory"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
