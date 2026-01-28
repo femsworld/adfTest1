@@ -7,6 +7,15 @@
 		},
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
+		},
+		"AzureBlobStorageDiabetes_connectionString": {
+			"value": ""
+		},
+		"GitHubHttp1_properties_typeProperties_url": {
+			"value": "https://media.githubusercontent.com/media/microsoft/MLOps/refs/heads/master/examples/AzureML-Primers/data/diabetes.csv"
+		},
+		"TrippingOData_properties_typeProperties_url": {
+			"value": "https://services.odata.org/TripPinRESTierService/"
 		}
 	}
 }
